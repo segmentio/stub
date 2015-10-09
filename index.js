@@ -177,6 +177,8 @@ function toFunction(args, stub){
     stub.fn = m;
     stub.obj = obj;
     obj[method] = stub;
-    return function(args) { fn.apply(obj, args) };
+    return function(args) {
+      return fn.apply(obj, args);
+    };
   }
 }
