@@ -4,7 +4,7 @@ var assert = require('proclaim');
 var stub = require('../lib');
 // XXX(ndhoule): This works but not assert.deepEqual because this impl and
 // these tests are awful and should be deprecated in favor of Sinon or similar
-var equals = require('equals');
+var equals = require('@segment/equals');
 
 describe('stub', function() {
   var s;
