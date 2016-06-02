@@ -22,7 +22,7 @@
   "homepage": "https://github.com/segmentio/stub#readme",
   "dependencies": {
     "@ndhoule/extend": "^2.0.0",
-    "equals": "^1.0.1"
+    "@segment/equals": "^1.1.1"
   },
   "devDependencies": {
     "@segment/eslint-config": "^3.1.1",
