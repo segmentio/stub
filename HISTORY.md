@@ -1,3 +1,8 @@
+1.0.1 / 2016-06-02
+==================
+
+ * Replace equals dependency with @segment/equals
+
 1.0.0 / 2016-05-17
 ==================
 
